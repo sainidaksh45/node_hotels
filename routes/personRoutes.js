@@ -106,6 +106,7 @@ router.get('/',async(req,res)=>{
       res.status(500).json({error:'internal server error'});
     }
   })
+  //commente added
 
   module.exports=router;
 
