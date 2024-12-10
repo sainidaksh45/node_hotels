@@ -2,8 +2,8 @@ const mongoose = require("mongoose");
 
 // const mongoURL = "'mongodb://localhost:27017/"; // Replace 'myDatabase' with your database name
 // mongoose.connect('mongodb://localhost:27017/mydatabase');
-mongoose.connect('mongodb://127.0.0.1:27017/mydatabase');
-
+//mongoose.connect('mongodb://127.0.0.1:27017/mydatabase');
+mongoose.connect('mongodb+srv://dakshsaini1981:Saini12345@cluster0.9dl74.mongodb.net/')
 
 
 
